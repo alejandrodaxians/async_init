@@ -21,7 +21,7 @@ if __name__ == "__main__":
     # Then, we instantiate such class into an object calling that method,
     # passing it the class and any other parameter we need
     example_object = ExampleClass(ExampleClass,
-                                  logging.getLogger("main_logger"))
+                                  logger=logging.getLogger("main_logger"))
 
     # Then we can use the object normally
     example_object.normal_method()
